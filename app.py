@@ -30,4 +30,4 @@ def metrics():
     return json.dumps({"data": {'UserCount': 140, 'UserCountActive': 23}}), 200, {'ContentType':'application/json'} 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port=1030)
