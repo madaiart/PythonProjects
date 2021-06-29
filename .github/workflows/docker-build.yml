@@ -3,7 +3,7 @@ name: DockerTest
 on:
   push:
     branches: [GitHubActions]
-  pull_requests:
+  pull_request:
     branches: [GitHubActions]
     
     
